@@ -86,3 +86,18 @@
 	</build>
 
 </project>
+
+
+## H2 Db
+#spring.datasource.url=jdbc:h2:mem:baseerdb
+#spring.datasource.driver-class-name=org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=
+#
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#
+## to access the H2 console
+#spring.h2.console.enabled=true
+#spring.h2.console.path=/h2-console
+#spring.h2.console.settings.trace=false
+#spring.h2.console.settings.web-allow-others=false
